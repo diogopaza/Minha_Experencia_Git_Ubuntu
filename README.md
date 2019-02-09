@@ -10,4 +10,9 @@ um dos primeiros passos após a instalção do Ubuntu foi justamente instalar o 
 <p>Utilizei o sudo na frente do comando para ele instalar como um usuário, na primeira vez que você utilizar o sudo ele irá pedir sua senha de root. </p>
 <h3>Configurando o Git</h3>
 <p>Para configurar o Git utilizei alguns comandos da página oficial para setar usuário e email</p>
-<p></p>
+<p>git config --global user.name "seu_usuario"
+ git config --global user.email seuemail@email.com</p>
+<h3>Verificar suas configurações</h3>
+<p>O comando abaixo lista suas configurações do git</p>
+<p>git config --list</p>
+
